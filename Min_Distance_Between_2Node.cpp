@@ -43,7 +43,7 @@ In cA function which return the Common Node of 'a' and 'b' :
   
  1. If root == NULL then return NULL;
  2. If any 1 Node (either 'a' or 'b') is found then return root i.e. return that node as root;
- 3. Call the Function recursively 2 times :
+ 3. Call the Function recursively 2 times :'
 
    i) For root->left; 
    ii) For root->right;
