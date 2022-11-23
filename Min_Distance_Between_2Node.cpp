@@ -30,7 +30,7 @@ Simple Approach for this program is as follows :
 In NodeCount function which return the distance of the Node from a root :
 ---> (root,data,count,ans)
   
- 1. It's a recursive function. So set a base condition when root == NULL then return NULL;
+ 1. It's' a recursive function. So set a base condition when root == NULL then return NULL;
  2. If data will become equal to root->data then just copy the value of count in ans;
  3. Call the recursive function 2 times.
    
@@ -43,7 +43,7 @@ In cA function which return the Common Node of 'a' and 'b' :
   
  1. If root == NULL then return NULL;
  2. If any 1 Node (either 'a' or 'b') is found then return root i.e. return that node as root;
- 3. Call the Function recursively 2 times :'
+ 3. Call the Function recursively 2 times :
 
    i) For root->left; 
    ii) For root->right;
